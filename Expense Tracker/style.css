@@ -1,0 +1,70 @@
+h1,h2{
+    text-align: center;
+}
+
+.info{
+    /* max-width: 300px; */
+    /* background-color: red; */
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+#name{
+    width: 743px;
+    padding: 3px;
+    margin-bottom: 6px;
+}
+
+#Date{
+    width: 300px;
+    padding: 3px;
+}
+
+#amount{
+    width: 377px;
+    padding: 3px;
+}
+#button{
+    position: relative;
+    left: 306px;
+    padding: 8px;
+    margin-top: 12px;
+    background-color: green;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    cursor:pointer ;
+}
+#name,#Date,#amount,#button{
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+#button:hover{
+    background-color: rgb(10, 68, 10);
+    opacity: 6px;
+}
+h2{
+    color: green;
+}
+
+.my_expenses{
+    max-width: 800px;
+    margin: auto;
+
+    /* background-color: red; */
+}
+table{
+    width: 800px;
+    border: 1px solid rgb(223, 214, 214);
+
+    
+}
+th{
+    padding: 10px;
+    background-color: green;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover{
+    background-color: #ddd;
+}

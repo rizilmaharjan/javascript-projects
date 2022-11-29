@@ -1,0 +1,24 @@
+*{
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+    color: lightgreen;
+}
+#info{
+    max-width: 500px;
+    margin: auto;
+    padding: 15px;
+}
+#paragraph{display: 
+    block;
+    width: 492px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+#btn{
+    position: relative;
+    left: 220px;
+}
