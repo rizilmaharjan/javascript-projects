@@ -1,3 +1,154 @@
-"definition": 
-  "word": 
-  "valid": 
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'b4a4353689msh9a63c61d5b36c90p176047jsnaf301a4efec5',
+		'X-RapidAPI-Host': 'mashape-community-urban-dictionary.p.rapidapi.com'
+	}
+};
+
+fetch('https://mashape-community-urban-dictionary.p.rapidapi.com/define?term=wat', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
+
+
+
+  const options = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': 'b4a4353689msh9a63c61d5b36c90p176047jsnaf301a4efec5',
+      'X-RapidAPI-Host': 'mashape-community-urban-dictionary.p.rapidapi.com'
+    }
+  };
+  
+  fetch('https://mashape-community-urban-dictionary.p.rapidapi.com/define?term=wat', options)
+    .then(response => response.json())
+    .then(response => console.log(response))
+    .catch(err => console.error(err));
+  
+  
+  
+      {
+          "list": [
+            {
+              "definition": "[home] ",
+              "permalink": "http://nepal.urbanup.com/260019",
+              "thumbs_up": 560,
+              "author": "Anonymous",
+              "word": "nepal",
+              "defid": 260019,
+              "current_vote": "",
+              "written_on": "2003-09-21T20:22:18.000Z",
+              "example": "",
+              "thumbs_down": 143
+            },
+            {
+              "definition": "The Kingdom of Nepal, situated in the [Himalaya], is the world's only Hindu kingdom. It is in South Asia, sharing borders with China (Tibet Autonomous Region) and India.\r\n ----------------------------------------\r\nNepal is landlocked between China and India; total land area 147,[181] km² (56,[827] mi²). The terrain is mountainous and hilly, although with physical diversity. Three broad physiographic areas run laterally — lowland [Terai] Region in the south; central lower mountains and hills constituting the Hill Region; the high Himalaya, with 8,850-metre (29,035-foot) high Mount Everest and other peaks forming Mountain Region in north. Of [Nepal's] total land area, only [20 percent] is cultivatable. [Deforestation] is a severe problem.\r\n\r\nSagarmatha (also known as Mt. Everest in English and Chomolongma in Tibetan), the highest mountain in the world, straddles the Nepal - China border. The vista and majesty of Sagarmatha and the Himalayan range, including eight of the world's top ten peaks, (the eight-thousanders (mountains over 8,000 metres), are major tourist attractions and are cited as wonders of the natural world.",
+              "permalink": "http://nepal.urbanup.com/1030206",
+              "thumbs_up": 364,
+              "author": "Tabha",
+              "word": "nepal",
+              "defid": 1030206,
+              "current_vote": "",
+              "written_on": "2005-01-30T14:06:56.000Z",
+              "example": "We are all [going] to [Nepal] in the [Summer].",
+              "thumbs_down": 101
+            },
+            {
+              "definition": "nepal is [the home] of [mount everest] and the nepalis. it is currently experiencing political problems and is [oppressed] by a terrorist group. it is also the home of the best weed",
+              "permalink": "http://nepal.urbanup.com/1175420",
+              "thumbs_up": 184,
+              "author": "crazy nepali guy",
+              "word": "nepal",
+              "defid": 1175420,
+              "current_vote": "",
+              "written_on": "2005-04-09T03:38:13.000Z",
+              "example": "I will go to [Nepal] in the [summer] to visit my family and [get high].",
+              "thumbs_down": 70
+            },
+            {
+              "definition": "Not [part] of [India]",
+              "permalink": "http://nepal.urbanup.com/5875871",
+              "thumbs_up": 523,
+              "author": "brownguy123",
+              "word": "Nepal",
+              "defid": 5875871,
+              "current_vote": "",
+              "written_on": "2011-06-09T20:10:16.000Z",
+              "example": "Retard: Where are you from?\r\n[Nepali]: Nepal.\r\nRetard: Is that in India?\r\n<[nepali] beats the shit out of [the retard]>",
+              "thumbs_down": 59
+            },
+            {
+              "definition": "Nepal is a landlocked sovereign state located in South Asia. It is located in the Himalayas and Hinduism is practised by a larger majority of people in Nepal than in any other nation-bordered to the north by the People's Republic of China, and to the south, east, and west by the Republic of India. With an area of 147,181 square kilometres (56,[827] sq mi) and a population of approximately 30 million, Nepal is the world's 93rd largest country by land mass6 and the 41st most populous country. Kathmandu is the nation's capital and the country's largest metropolis. Since Buddha was born in Nepal, minority of people practice Buddhism Faith in the country. Nepal is commonly divided into three physiographic areas: Mountain, Hill and [Terai]. These ecological belts run [east-west] and are vertically intersected by [Nepal's] major, north to south flowing river systems., Nepal Carry's the [tallest mountain] in the world The Mount Everest",
+              "permalink": "http://nepal.urbanup.com/5762845",
+              "thumbs_up": 93,
+              "author": "nepaliketi14",
+              "word": "Nepal",
+              "defid": 5762845,
+              "current_vote": "",
+              "written_on": "2011-04-21T23:32:25.000Z",
+              "example": "Next, time [I go] to Nepal I'll [climb] the [Everest].",
+              "thumbs_down": 10
+            },
+            {
+              "definition": "[Nepal] is one of the most beautiful country in the world.it's is situated in south east Asia.The highest Mountain of the world MOUNT EVEREST ([HIMALAYA]) is in Nepal.[NEPAL] is the birth place of Lord Budhha.\r\n[NEpal] is a Secular country. Nepalese are very nice and brave people.\n\n[KATHMANDU] is the capital city of Nepal .\r\nPOKHARA is beautiful city u must visit that Place.",
+              "permalink": "http://nepal.urbanup.com/5570224",
+              "thumbs_up": 152,
+              "author": "Thtsthewaywerule",
+              "word": "Nepal",
+              "defid": 5570224,
+              "current_vote": "",
+              "written_on": "2011-02-04T11:34:26.000Z",
+              "example": "-Where are you from?\r\n[im] from Nepal\r\n-where's that?\r\n[it's in] [Asia]",
+              "thumbs_down": 27
+            },
+            {
+              "definition": "[Never Ending] [Peace And Love]",
+              "permalink": "http://nepal.urbanup.com/5327341",
+              "thumbs_up": 222,
+              "author": "ishzz",
+              "word": "NEPAL",
+              "defid": 5327341,
+              "current_vote": "",
+              "written_on": "2010-11-03T09:50:08.000Z",
+              "example": "NEPAL is the best [place] in this [whole] [world].",
+              "thumbs_down": 56
+            },
+            {
+              "definition": "Birth place of Buddha, home of the world’s [tallest mountain], that would be Everest  and the only official Hindu Kingdom. Pot grows by the side of the road; everywhere you look you’ll see mountains, and the [best food] I ever ate. Called [Mo mo’s]. In short my favorite country. ",
+              "permalink": "http://nepal.urbanup.com/1621773",
+              "thumbs_up": 637,
+              "author": "Bindi_kwan",
+              "word": "Nepal",
+              "defid": 1621773,
+              "current_vote": "",
+              "written_on": "2006-02-10T21:07:43.000Z",
+              "example": "Nepal - [the best] snoodlez",
+              "thumbs_down": 195
+            },
+            {
+              "definition": "Small underdeveloped South Asian country fucked by all Monarchy, Democracy, Geography, Neighbors .\n\n[Everest], birthplace of Buddha and [Gurkhas] are the only things it is known for ( at least what people of Nepal think so) and beside these Nepal have [nothing to show] off. So you can see Every Nepali on the internet being proud of these three things only.",
+              "permalink": "http://nepal.urbanup.com/16384605",
+              "thumbs_up": 7,
+              "author": "Niyaalo",
+              "word": "Nepal",
+              "defid": 16384605,
+              "current_vote": "",
+              "written_on": "2021-10-19T03:28:32.441Z",
+              "example": "Be [positive], [one day] Nepal will be world super [power].",
+              "thumbs_down": 4
+            },
+            {
+              "definition": "Has the [Tallest mountain] in the world and is responsible for [Haiti] having [Cholera].",
+              "permalink": "http://nepal.urbanup.com/7076044",
+              "thumbs_up": 17,
+              "author": "fov wef obiu",
+              "word": "Nepal",
+              "defid": 7076044,
+              "current_vote": "",
+              "written_on": "2013-06-05T03:34:55.262Z",
+              "example": "[Nothing] is above Nepal...[except] the [poverty line]!",
+              "thumbs_down": 41
+            }
+          ]
+        }

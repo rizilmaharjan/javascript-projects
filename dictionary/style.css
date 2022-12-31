@@ -7,6 +7,8 @@
     text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 700;
+    color: #1e90ff ;
+    margin-bottom: -10px;
  }
 
  #word::first-letter{
@@ -18,3 +20,20 @@
     font-family: cursive;
     margin-top: 7px;
  }
+
+ #meaning1, #meaning2, #meaning3{
+   display: block;
+   margin-top: 10px;
+   font-family: cursive;
+ }
+
+ ol li{
+   font-family: cursive;
+ }
+ #example{
+   color: #1e90ff;
+   font-weight: 700;
+   margin-top: 30px;
+ }
+
+ 
