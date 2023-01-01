@@ -12,9 +12,9 @@ const dict = (inp_word)=>{
 	.then(response => response.json())
 	.then(response => {
 		word.innerHTML = response.list[2].word;
+		meaning3.innerHTML= response.list[3].definition;
 		meaning1.innerHTML= response.list[1].definition;
 		meaning2.innerHTML= response.list[2].definition;
-		meaning3.innerHTML= response.list[3].definition;
 
 		example1.innerHTML= response.list[3].example;
 		example2.innerHTML= response.list[4].example;
